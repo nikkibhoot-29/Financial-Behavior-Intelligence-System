@@ -17,6 +17,8 @@ This project presents an end-to-end data science pipeline for analyzing financia
 
 It integrates multiple datasets and applies both unsupervised and supervised learning techniques to support data-driven decision-making in financial systems.
 
+Additionally, the project includes a Python script (`main.py`) to execute the core data pipeline outside the notebook environment.
+
 ---
 
 ## Problem Statement
@@ -71,6 +73,8 @@ These datasets are merged to create a unified analytical dataset.
 - Identified ~5% of customers with unusual transaction behavior
 
 ### Predictive Modeling
+
+The modeling workflow is implemented both in the notebook (for analysis) and partially in a Python script for reproducibility.
 
 #### Multiclass Classification
 - Target: Customer segments (clusters)
@@ -131,6 +135,20 @@ Install dependencies using:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost
 ```
+---
+
+## Running the Project
+
+You can run the complete data pipeline using the Python script:
+```bash
+python main.py
+```
+This will:
+- Load and merge datasets
+- Perform feature engineering
+- Apply customer segmentation (KMeans clustering)
+- Display processed customer-level data
+
 ---
 
 ## Business Applications
