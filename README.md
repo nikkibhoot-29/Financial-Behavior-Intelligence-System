@@ -2,6 +2,16 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nikkibhoot-29/Financial-Behavior-Intelligence-System/blob/main/notebooks/Financial_Behavior_Intelligence_System.ipynb)
 
+Data Science project for customer segmentation, anomaly detection, and risk prediction using financial transaction data.
+
+## Author
+
+**Nikki Bhoot**  : Undergraduate Student | Aspiring Data Scientist  
+
+**Project Type:** : Customer Segmentation, Anomaly Detection & Classification
+
+---
+
 ## Overview
 This project presents an end-to-end data science pipeline for analyzing financial transaction data to extract behavioral insights, identify anomalous activity, and predict high-value customers.
 
@@ -103,24 +113,24 @@ These datasets are merged to create a unified analytical dataset.
 ---
 
 ## Tech Stack
-- Python
-- Pandas, NumPy
-- Matplotlib, Seaborn
-- Scikit-learn
-- XGBoost
+
+- Programming Language: Python
+- Data Analysis: Pandas, NumPy
+- Visualization: Matplotlib, Seaborn
+- Machine Learning: Scikit-learn, XGBoost
 
 ---
 
 ## Requirements
 
-- Python >= 3.8
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
-- xgboost
+- Python >= 3.8  
+- Tested on Python 3.10  
 
+Install dependencies using:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn xgboost
+```
 ---
 
 ## Business Applications
