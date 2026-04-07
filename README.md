@@ -133,7 +133,7 @@ The modeling workflow is implemented both in the notebook (for analysis) and par
 Install dependencies using:
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost
+pip install -r requirements.txt
 ```
 ---
 
